@@ -1,0 +1,40 @@
+---
+title: "Lab 1 Question"
+author: "Sumedh Dalwai & Wriju Ghosh"
+date: "28/11/2021"
+output: word_document
+---
+
+## Introducing R
+If you don't have R Studio already installed on your computer, please download and install it.
+
+To check if you already have it- On Windows computers, please type 'windows' button followed by the letter 'r'. R Studio app will be listed. If it's not listed here, it's time to download R and R Studio now.
+
+To Download R Studio, you need to download R package and R Studio both. 
+First download R- Please google "Download R Studio". It will take you to the link <https://www.rstudio.com/products/rstudio/download/>. Click on the R STudio Desktop Free "Download". 
+
+
+Please download 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
